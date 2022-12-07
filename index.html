@@ -9,33 +9,39 @@
   <body>
     <section>
       <div class="backgraund-video">
-        <img src="/images/logo.svg" alt="logo-max" top left:0; />
-        <video
-          autoplay
-          muted
-          loop
-          id="myVideo"
-          video
-          width="100%"
-          height="auto"
-        >
-          <source
-            src="https://maxkorzh.live/image/main_page_video/ffmpeg/Videokorzhnew.mp4"
-            type="video/mp4"
+        <div class="overlay">
+          <img
+            src="../Favorite-singer/images/logo.svg"
+            alt="logo-max"
+            top
+            left:0;
           />
-        </video>
-
-        <div class="container">
-          <h1>My Favotite singer</h1>
-          <nav>
-            <p><a href="../pages/about.html">История успеха Макса Коржа</a></p>
-            <p></p>
-          </nav>
+          <div class="container">
+            <h1>My Favotite singer</h1>
+            <nav>
+              <p>
+                <a href="../Favorite-singer/pages/about.html"
+                  >История успеха Макса Коржа</a
+                >
+              </p>
+              <p></p>
+            </nav>
+          </div>
         </div>
       </div>
+
+      <video autoplay muted loop id="myVideo" video width="100%" height="auto">
+        <source
+          src="https://maxkorzh.live/image/main_page_video/ffmpeg/Videokorzhnew.mp4"
+          type="video/mp4"
+        />
+      </video>
+
       <div class="contact">
-        <a href="/pages_2/contact.html">Ссылка на страницу </a>
-        <a href="/pages3/gallery.html">фотки</a>
+        <a href="../Favorite-singer/pages_2/contact.html"
+          >Ссылка на страницу
+        </a>
+        <a href="../Favorite-singer/pages3/gallery.html">фотки</a>
       </div>
     </section>
   </body>
